@@ -46,7 +46,7 @@ function Odds() {
      rightvisual.addEventListener('click',()=>{
       rightvisual.style.backgroundColor="white";
       rightvisual.style.color="black";
-      leftmatch.style.backgroundColor="red";    
+      leftmatch.style.backgroundColor="green";    
       leftmatch.style.color="white";  
       liveContainerside.style.display="none";
       seconviual.style.display="block";
@@ -55,7 +55,7 @@ function Odds() {
      leftmatch.addEventListener('click',()=>{
         leftmatch.style.backgroundColor="white";
         leftmatch.style.color="black"; 
-        rightvisual.style.backgroundColor="red";
+        rightvisual.style.backgroundColor="green";
         rightvisual.style.color="white";   
       liveContainerside.style.display="block";
       seconviual.style.display="none";
