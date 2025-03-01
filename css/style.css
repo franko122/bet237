@@ -321,6 +321,14 @@
         position: fixed;  
         z-index: 22;
       }  
+      .imhdivert{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 13px;
+      }
       .frst{  
         margin: auto;
         justify-content: space-around;
@@ -329,6 +337,9 @@
         align-content: center;
         padding:5px; 
         border:green solid 1px;
+      }
+      .weim{
+        width: 35px;
       }
       .ribe{
         padding: 10px;
