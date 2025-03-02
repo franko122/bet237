@@ -7,7 +7,7 @@ function Startside(){
       let load2 = document.getElementById("load2");
       setTimeout(() => {
         load2.style.display="none"
-      }, 5000);
+      }, 4000);
       setTimeout(() => {
         bet.style.display="block"
         rite.style.display="none"
@@ -74,8 +74,7 @@ function Odds() {
         secodd.style.backgroundColor="green"; 
         thirdod.style.backgroundColor="rgb(207, 207, 207)"
         thirdod.style.color="black"
-      } 
-      
+      }  
       else{ 
         secodd.style.backgroundColor="green";
         secodd.style.color="white";

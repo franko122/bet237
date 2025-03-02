@@ -266,9 +266,23 @@
         -ms-border-radius: 6px;
         -o-border-radius: 6px;
       }
+      .dis{ 
+        width:60%;
+        margin: auto;
+        display: flex; 
+        justify-content: space-between;
+      }
+      .ibtn{
+          width: 30%;
+          padding:5px;
+          border:solid 1px white;
+          border-radius:3px;
+          outline: none;
+          background-color: green;
+          color:white; 
+}
       .mainco{
-        width: 60%;
-        background-color:red;
+        width: 80%; 
         margin: auto;
       }
       .slip{
