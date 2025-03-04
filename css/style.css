@@ -273,6 +273,9 @@
 .okech{
   margin:0%;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding:1%;
 }
 .loiin{
@@ -299,8 +302,8 @@
   padding:10px; 
 }
 .ning{
-  width:45%;
-  height: 34px;
+  width:40%; 
+  padding:6px;
   border-radius:3px;
   background-color: rgb(195, 223, 247);
   text-align: center;
@@ -315,9 +318,8 @@
   margin: 0%;
   font-size: 11px; 
 }
-.tal{
-  padding: 10px; 
-  padding: 15px;
+.tal{  
+  margin: 0%;
   font-size: 10px;
   color: green;
 }
@@ -415,9 +417,12 @@
       .od1{
         margin: 0px;  
       }
-      
+      .overt{
+        text-align: center;
+        color:green;
+      }
       .nolos{
-        width:40%;
+        width:100%;
         border-radius:3px;
         padding: 3px;
         color: white;
@@ -526,7 +531,7 @@
         width:50px;
         border-radius:5px;
         color: green;
-        font-size:14px;
+        font-size:13px;
         text-align: center;
         padding:4px;
         background-color: rgb(255, 255, 255);
