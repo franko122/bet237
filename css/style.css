@@ -270,6 +270,17 @@
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
+.namert{
+  width: 90%;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-around;
+  align-items: center;
+  margin:auto;
+  padding: 5px;
+  background-color: green;
+  color:white;
+}
 .okech{
   margin:0%;
   color: white;
