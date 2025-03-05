@@ -658,6 +658,10 @@ margin-left:8px;
 
 /*  start of tablet  */ 
 @media(min-width:500px){ 
+   
+.weims{
+  width: 30%;
+}
   .hbody{
     width: 40%;
     height: inherit;
