@@ -84,7 +84,7 @@ function Odds() {
        navigate1.style.width="0px"
      })
      mainbug.addEventListener('click',()=>{ 
-      navigate1.style.width="100%"
+      navigate1.style.width="100%" 
      })
 
      rightvisual.addEventListener('click',()=>{
