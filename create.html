@@ -50,7 +50,7 @@
              <section>
                <div class="top123">
                   <form action="">
-                    <input required type="number" class="oneputer" placeholder="Number eg: +234 9034069907">
+                    <input required type="number" class="oneputer"  id="phone" placeholder="phone Number ">
                    </div>  
                    <br>
                    <div class="top123">
@@ -160,7 +160,7 @@
     <!-- FOOTER ENDS HERE -->
      <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/js/intlTelInput.min.js"></script>
 <script>
-  const input = document.querySelector("#phone");
+  const input = document.getElementById("phone");
   window.intlTelInput(input, {
     loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/js/utils.js"),
   });
