@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
        <link rel="shortcut icon" href="./assets/img/run.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./font/fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css">
-    <link rel="stylesheet" href="./font/fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/js/all.js">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/css/intlTelInput.css">
 </head>  
 
 <body class="hbody">  
@@ -52,7 +51,7 @@
      <section> 
        <form action="">   
          <div class="top123">
-              <input required type="number" class="oneputer" placeholder="Number eg +234 9034069907">
+              <input required type="number" class="oneputer" id="phone" placeholder="Number">
              </div>
               <br>
               <div class="top123">
@@ -155,5 +154,14 @@
           <br>  
       </footer>  
     <!-- FOOTER ENDS HERE -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/js/intlTelInput.min.js"></script>
+    <script>
+      const input = document.getElementById("phone");
+      window.intlTelInput(input, {
+        loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/js/utils.js"),
+        initialCountry:"ng",
+        showSelectedDialCode: true,
+      });
+    </script>
 </body> 
 </html>
